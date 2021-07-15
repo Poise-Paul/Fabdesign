@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur atque blanditiis pariatur vitae quaerat quae facere, neque, est accusamus reiciendis, vel earum fugit voluptates praesentium ducimus. Veritatis nihil vel laborum?</p>
+    <button onclick="changeColor()">Go</button>
+    <input type="text" onblur="alertHello()">
+    
+    
+
+    <script>
+        function changeColor() {
+            document.getElementById("txt").style.color = "red"
+        }
+
+        function alertHello(){
+            alert('Hello');
+        }
+    </script>
+</body>
+
+</html>
